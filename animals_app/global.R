@@ -1,3 +1,4 @@
+library(dplyr)
 data <- readRDS('animal_data.rds')
 # Create lists of Cat and Dog breeds for filtering
 cats <- data%>%
